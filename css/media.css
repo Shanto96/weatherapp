@@ -1,0 +1,109 @@
+@media (max-width: 767px) {
+    
+.logo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 7pt;
+    color: white;
+    margin-top: 19px;
+}
+    .bnr_top h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17pt;
+    color: white;
+    margin-top: 27px;
+}
+    .bnr_top p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 6pt;
+    color: white;
+}
+    .customise_btn {
+    background-color: #3366cc;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 12px;
+    padding: 5px 7px;
+    margin-right: 10px;
+    margin-bottom: 19px;
+}
+.top {
+    background: url(../images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 540px;
+}
+    .caption h1 {
+    color: #6699ff;
+    text-align: center;
+    margin-top: 53px;
+    font-size: 20px;
+}
+    .single_features h1 {
+    margin-top: 0px;
+    font-size: 12pt;
+}
+    .single_features p {
+    color: #aeaeae;
+    font-size: 8pt;
+}
+    .rain{
+        margin-top: 20px;
+    }
+    .screencaption h1 {
+    color: #6699ff;
+    font-size: 21px;
+}
+    .lastbanner h1 {
+    margin-top: 25px;
+    color: white;
+}
+    .footer_menu ul li a {
+    padding: 8px 8px;
+    display: block;
+    color: white;
+    text-align: center;
+}
+    .footer_icon ul li a {
+    display: block;
+    color: white;
+    padding: 10px 19px;
+}
+    .footer_menu ul:first-child{
+        padding: 0px
+    }
+    .footer_icon ul:first-child{
+        padding: 0px;
+    }
+    h3{
+        font-size: 19px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 5px;
+}
+    .footer_menu ul li a {
+    padding: 20px 12px;
+    display: block;
+    color: white;
+}
+    .footer_menu ul:first-child{
+        padding: 0px
+    }
+    .footer_icon ul:first-child{
+        padding: 0px;
+    }
+
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    ...
+}
+
+@media (min-width: 1200px) {}
