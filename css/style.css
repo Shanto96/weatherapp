@@ -29,6 +29,9 @@
     font-size: 13pt;
     color: white;
 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f6f4f4;
+}
 .bnr_top h1{
    font-family: 'Ubuntu', sans-serif;
     font-size: 40pt;
