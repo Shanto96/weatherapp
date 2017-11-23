@@ -1,10 +1,30 @@
 @media (max-width: 767px) {
     
+    
 .logo {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 7pt;
+    font-size: 23pt;
     color: white;
     margin-top: 19px;
+    text-align: center;
+}
+ .navbar-toggle {
+        left: -50px;
+    }
+    .xs_iconmenu{
+        
+    }
+    .xs_iconmenu ul{
+        list-style: none;
+        padding: 0px;
+    }
+    .xs_iconmenu ul li {
+        float: left;
+    }
+    .xs_iconmenu ul li a {
+    display: block;
+    color: White;
+    padding: 21px 6px;
 }
     .bnr_top h1 {
     font-family: 'Ubuntu', sans-serif;
@@ -31,7 +51,7 @@
     background: url(../images/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 540px;
+    min-height: 642px;
 }
     .caption h1 {
     color: #6699ff;
@@ -58,19 +78,25 @@
     margin-top: 25px;
     color: white;
 }
+    .footer_menu ul li{
+       float: unset; 
+       
+    }
     .footer_menu ul li a {
     padding: 8px 8px;
     display: block;
     color: white;
-    text-align: center;
+    text-align: left;
 }
+    
     .footer_icon ul li a {
     display: block;
     color: white;
     padding: 10px 19px;
 }
     .footer_menu ul:first-child{
-        padding: 0px
+        padding: 0px;
+    
     }
     .footer_icon ul:first-child{
         padding: 0px;
